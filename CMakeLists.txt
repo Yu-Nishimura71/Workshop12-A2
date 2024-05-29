@@ -12,7 +12,7 @@ endif()
 project ("Workshop12-A2")
 
 # Add source to this project's executable.
-add_executable (Workshop12-A2 "Workshop12-A2.cpp" "Workshop12-A2.h")
+add_executable (Workshop12-A2 "Workshop12-A2.cpp" "Workshop12-A2.h" "Lion.h" "Lion.cpp" "Hyena.h" "Hyena.cpp" "Giraffe.h" "Giraffe.cpp" "Elephant.h" "Elephant.cpp" "Hippo.h" "Hippo.cpp" "Carnivore.h" "Carnivore.cpp" "Herbivore.h" "Herbivore.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Workshop12-A2 PROPERTY CXX_STANDARD 20)
