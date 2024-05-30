@@ -13,7 +13,7 @@ public:
     }
 
     // Takes param types of either Animal (e.g., lion) or type (e.g., carnivore).
-    Animal* makeAnimal(std::string& type);
+    Entity* makeAnimal(std::string& type);
 protected:
     EntityFactory();
     
