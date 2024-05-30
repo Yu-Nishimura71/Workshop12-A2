@@ -10,5 +10,8 @@ int main()
 	auto animal = EntityFactory::getInstance().makeAnimal(type);
 	
 	std::cout << "I am cateogory of type " << animal->getType() << ".\nAnimal: " << animal->getName() << std::endl;
+	
+	delete animal;
+	animal = nullptr;
 	return 0;
 }
