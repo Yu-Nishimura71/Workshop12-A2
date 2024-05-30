@@ -5,7 +5,8 @@
 
 class Animal : public Entity {
 public:
-private:
+    Animal(){}
+    virtual ~Animal(){}
 
 };
 #endif // !ANIMAL_H

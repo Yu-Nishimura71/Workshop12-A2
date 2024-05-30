@@ -1,14 +1,11 @@
 #ifndef GIRAFFE_H
 #define GIRAFFE_H
 
-#include "Animal.h"
 #include "Herbivore.h"
 
-class Giraffe: public Animal, public Herbivore
+class Giraffe: public Herbivore
 {
 private:
-    double _x;
-    double _y;
 };
 
 #endif

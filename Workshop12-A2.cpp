@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	std::string type = "Herbivore";
+	std::string type = "Giraffe";
 	auto eFactory = EntityFactory::getInstance().makeAnimal(type);
 	
 

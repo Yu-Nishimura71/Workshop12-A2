@@ -3,7 +3,8 @@
 
 class Entity {
 public:
-private:
+    virtual ~Entity() {}
+protected:
     double _x;
     double _y;
 };

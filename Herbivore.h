@@ -2,9 +2,12 @@
 #define HERBIVORE_H
 
 #include <iostream>
-class Herbivore
+#include "Animal.h"
+
+class Herbivore : public Animal
 {
 public:
+    Herbivore() {}
     void getType() {
         std::cout << "I am a Herbivore" << std::endl;
     }
