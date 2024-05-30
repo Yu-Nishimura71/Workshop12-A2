@@ -5,6 +5,8 @@
 
 class Hippo: public Herbivore
 {
+public:
+    std::string getName() override;
 };
 
 #endif //HIPPO_H

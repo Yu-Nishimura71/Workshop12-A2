@@ -5,7 +5,8 @@
 
 class Giraffe: public Herbivore
 {
-private:
+public:
+    std::string getName() override;
 };
 
 #endif

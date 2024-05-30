@@ -16,7 +16,7 @@ Entity* EntityFactory::makeAnimal(std::string& type) {
     std::random_device rand;
     std::mt19937 randGenerator(rand());
     std::uniform_int_distribution<> carnivoreDis(0,1);
-    std::uniform_int_distribution<> herbivoreDis(0,2)
+    std::uniform_int_distribution<> herbivoreDis(0, 2);
 
     if (type == "Carnivore") {
         int randomInt = carnivoreDis(randGenerator);

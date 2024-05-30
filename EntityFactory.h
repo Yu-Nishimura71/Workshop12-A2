@@ -2,7 +2,6 @@
 #define ENTITY_FACTORY
 
 #include "Entity.h"
-#include "Animal.h"
 
 #include <string>
 

@@ -5,6 +5,8 @@
 
 class Lion: public Carnivore
 {
+public:
+    std::string getName() override;
 };
 
 #endif //LION_H

@@ -3,9 +3,9 @@
 
 #include "Animal.h"
 
-class Carnivore
+class Carnivore : public Animal
 {
-
+    std::string getType() override;
 };
 
 #endif //CARNIVORE_H

@@ -12,7 +12,7 @@ endif()
 project ("Workshop12-A2")
 
 # Add source to this project's executable.
-add_executable (Workshop12-A2 "Workshop12-A2.cpp" "Workshop12-A2.h" "Entity.h" "Entity.cpp" "Human.h" "Human.cpp" "Animal.h" "Animal.cpp" "Lion.h" "Lion.cpp" "Hyena.h" "Hyena.cpp" "Giraffe.h" "Giraffe.cpp" "Elephant.h" "Elephant.cpp" "Hippo.h" "Hippo.cpp" "Carnivore.h" "Carnivore.cpp" "Herbivore.h" "Herbivore.cpp")
+add_executable (Workshop12-A2 "Workshop12-A2.cpp" "Workshop12-A2.h" "Entity.h" "Entity.cpp" "Human.h" "Human.cpp" "Animal.h" "Animal.cpp" "Lion.h" "Lion.cpp" "Hyena.h" "Hyena.cpp" "Giraffe.h" "Giraffe.cpp" "Elephant.h" "Elephant.cpp" "Hippo.h" "Hippo.cpp" "Carnivore.h" "Carnivore.cpp" "Herbivore.h" "Herbivore.cpp" "EntityFactory.h" "EntityFactory.cpp")
 
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)

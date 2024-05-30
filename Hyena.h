@@ -5,6 +5,8 @@
 
 class Hyena: public Carnivore
 {
+public:
+    std::string getName() override;
 };
 
 #endif //HYENA_H

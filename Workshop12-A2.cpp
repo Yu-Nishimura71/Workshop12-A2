@@ -2,14 +2,13 @@
 #include "Workshop12-A2.h"
 #include "EntityFactory.h"
 #include <string>
-#include "Entity.h"
-using namespace std;
 
 int main()
 {
 	
-	std::string type = "Giraffe";
-	auto eFactory = EntityFactory::getInstance().makeAnimal(type);
+	std::string type = "Herbivore";
+	auto animal = EntityFactory::getInstance().makeAnimal(type);
 	
+	std::cout << "I am cateogory of type " << animal->getType() << ".\nAnimal: " << animal->getName() << std::endl;
 	return 0;
 }
