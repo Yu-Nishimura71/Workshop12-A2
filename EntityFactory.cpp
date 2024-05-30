@@ -12,7 +12,7 @@ EntityFactory::EntityFactory() {
 
 }
 
-Entity* EntityFactory::makeAnimal(std::string& type) {
+Animal* EntityFactory::makeAnimal(std::string& type) {
     std::random_device rand;
     std::mt19937 randGenerator(rand());
     std::uniform_int_distribution<> carnivoreDis(0,1);

@@ -2,6 +2,7 @@
 #define ENTITY_FACTORY
 
 #include "Entity.h"
+#include "Animal.h"
 #include <string>
 
 class EntityFactory {
@@ -12,7 +13,7 @@ public:
     }
 
     // Takes param types of either Animal (e.g., lion) or type (e.g., carnivore).
-    Entity* makeAnimal(std::string& type);
+    Animal* makeAnimal(std::string& type);
 protected:
     EntityFactory();
     
