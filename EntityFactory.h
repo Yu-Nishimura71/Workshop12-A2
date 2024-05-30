@@ -3,7 +3,7 @@
 
 #include "Entity.h"
 #include "Animal.h"
-#include "Giraffe.h"
+
 #include <string>
 
 class EntityFactory {
