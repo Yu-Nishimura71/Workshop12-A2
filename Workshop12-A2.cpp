@@ -1,12 +1,14 @@
-﻿// Workshop12-A2.cpp : Defines the entry point for the application.
-//
-
+﻿
 #include "Workshop12-A2.h"
-
+#include "EntityFactory.h"
+#include <string>
 using namespace std;
 
 int main()
 {
-	cout << "Hello CMake." << endl;
+	std::string type = "Herbivore";
+	auto eFactory = EntityFactory::getInstance().makeAnimal(type);
+	
+
 	return 0;
 }
