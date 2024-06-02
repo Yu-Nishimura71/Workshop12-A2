@@ -6,7 +6,17 @@
 
 class Human : public Entity {
 public:
+    Human(std::string _name) {
+    
+        name = _name;
+
+    }
+    virtual ~Human(){}
+    std::string getType() override;
+    std::string getName() override;
+
+
 private:
-    std::string _name;
+    std::string name;
 };
 #endif // !HUMAN_H

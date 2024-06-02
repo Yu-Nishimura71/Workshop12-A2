@@ -6,6 +6,7 @@
 #include "Giraffe.h"
 #include "Hippo.h"
 #include "Elephant.h"
+#include "Human.h"
 #include <random>
 
 EntityFactory::EntityFactory() {
@@ -56,4 +57,13 @@ Entity* EntityFactory::makeAnimal(std::string& type) {
     }
 
     return nullptr;
+}
+
+Entity* EntityFactory::makeHuman(std::string& name) {
+
+    Human *human = new Human(name);
+    
+    return human;
+
+
 }
